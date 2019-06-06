@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Footer from './Footer';
 import Header from './Header';
 import Main from './Main'
 import '../sass/main.scss';
@@ -13,7 +14,9 @@ function App() {
         headingSub={'is where life happens'}
       />
       <Main />
-      
+      <Footer 
+        logo={'img/logo-green-2x.png'}
+      />
     </React.Fragment>
   );
 }
