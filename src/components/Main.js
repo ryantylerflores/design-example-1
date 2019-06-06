@@ -122,9 +122,17 @@ const Body = () => {
       </section>
 
       <section className="section-stories">
+        <div className="bg-video">
+          <video className="bg-video__content" autoplay='autoplay' muted loop>
+            <source src='/img/video.mp4' type='video/mp4' />
+            <source src='/img/video.webm' type='video/webm' />
+            Your browser is not supported!
+          </video>
+        </div>
+
         <div className="u-center-text u-margin-bottom-big">
           <h2 className="heading-secondary">
-            Most popular tours
+            We make people genuinely happy
           </h2>
         </div>
 
