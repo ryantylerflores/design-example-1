@@ -1,5 +1,6 @@
 import React from 'react'
 import Card from './Card';
+import Form from './Form';
 
 const Body = () => {
   let tourInfo = [
@@ -164,6 +165,12 @@ const Body = () => {
 
         <div className="u-center-text u-margin-top-huge">
           <a href="#" className="btn-text">Read all stories &rarr;</a>
+        </div>
+      </section>
+
+      <section className="section-book">
+        <div className="row">
+          <Form />
         </div>
       </section>
     </main>
