@@ -4,6 +4,8 @@ import Footer from './Footer';
 import Header from './Header';
 import Main from './Main'
 import Navigation from './Navigation';
+import Popup from './Popup';
+
 import '../sass/main.scss';
 
 function App() {
@@ -19,6 +21,7 @@ function App() {
       <Footer 
         logo={'img/logo-green-2x.png'}
       />
+      <Popup />
     </React.Fragment>
   );
 }

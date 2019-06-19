@@ -12,7 +12,7 @@ const Header = (props) => {
           <span className='heading-primary--sub'>{props.headingSub}</span>
         </h1> 
 
-        <a href="#" className='btn btn--white btn--animated'>Discover our tours</a>
+        <a href="#section-tours" className='btn btn--white btn--animated'>Discover our tours</a>
       </div>
     </header>
   )
